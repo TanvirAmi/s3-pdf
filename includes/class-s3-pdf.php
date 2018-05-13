@@ -122,6 +122,17 @@ class S3_Pdf {
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-s3-pdf-public.php';
 
+		/**
+		 * Added shortcode function
+		 */
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/s3-shortcode.php';
+
+
+		/**
+		 * Added shortcode's helper function
+		 */
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/shortcode-helper.php';
+
 		$this->loader = new S3_Pdf_Loader();
 
 	}
