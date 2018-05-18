@@ -7,7 +7,7 @@
         $shortcode_atts   = shortcode_atts( array(
                                                 'url'      => '',
                                                 'width'    => '100%',
-                                                'height'   => '830px',
+                                                'height'   => '780px',
                                                 'language' => 'en',
                                             ), $atts );
 
@@ -33,7 +33,7 @@
 
             $final_output  = '<div class="pdf-preview">
                               <div class="pdf-document" ' . $doc_style . '>' . $iframe .'</div>'.
-                              '</div>'.'<center class="pdf-ad">' . get_option('newswire_header_ad_code') .'</center>';
+                              '</div>'.'<center class="pdf-ad">' . get_option('newswire_pdf1_ad_code') .'</center>';
 
             return $final_output;
     }
@@ -46,7 +46,7 @@
     $shortcode_atts   = shortcode_atts( array(
                                             'url'      => '',
                                             'width'    => '100%',
-                                            'height'   => '830px',
+                                            'height'   => '780px',
                                             'language' => 'en',
                                         ), $atts );
 
@@ -72,7 +72,7 @@
 
         $final_output  = '<div class="pdf-preview">
                           <div class="pdf-document" ' . $doc_style . '>' . $iframe .'</div>'.
-                          '</div>'.'<center class="pdf-ad">' . get_option('newswire_header_ad_code') .'</center>';
+                          '</div>'.'<center class="pdf-ad">' . get_option('newswire_pdf2_ad_code') .'</center>';
 
         return $final_output;
     }
@@ -85,7 +85,7 @@
         $shortcode_atts   = shortcode_atts( array(
                                                 'url'      => '',
                                                 'width'    => '100%',
-                                                'height'   => '830px',
+                                                'height'   => '780px',
                                                 'language' => 'en',
                                             ), $atts );
 
@@ -111,7 +111,7 @@
 
             $final_output  = '<div class="pdf-preview">
                               <div class="pdf-document" ' . $doc_style . '>' . $iframe .'</div>'.
-                              '</div>'.'<center class="pdf-ad">' . get_option('newswire_header_ad_code') .'</center>';
+                              '</div>'.'<center class="pdf-ad">' . get_option('newswire_pdf3_ad_code') .'</center>';
 
         return $final_output;
     }
@@ -124,7 +124,7 @@
     $shortcode_atts   = shortcode_atts( array(
                                             'url'      => '',
                                             'width'    => '100%',
-                                            'height'   => '830px',
+                                            'height'   => '780px',
                                             'language' => 'en',
                                         ), $atts );
 
@@ -150,7 +150,7 @@
 
         $final_output  = '<div class="pdf-preview">
                           <div class="pdf-document" ' . $doc_style . '>' . $iframe .'</div>'.
-                          '</div>'.'<center class="pdf-ad">' . get_option('newswire_header_ad_code') .'</center>';
+                          '</div>'.'<center class="pdf-ad">' . get_option('newswire_pdf4_ad_code') .'</center>';
 
         return $final_output;
     }
@@ -163,7 +163,7 @@
         $shortcode_atts   = shortcode_atts( array(
                                                 'url'      => '',
                                                 'width'    => '100%',
-                                                'height'   => '830px',
+                                                'height'   => '780px',
                                                 'language' => 'en',
                                             ), $atts );
 
@@ -189,7 +189,7 @@
 
             $final_output  = '<div class="pdf-preview">
                               <div class="pdf-document" ' . $doc_style . '>' . $iframe .'</div>'.
-                              '</div>'.'<center class="pdf-ad">' . get_option('newswire_header_ad_code') .'</center>';
+                              '</div>'.'<center class="pdf-ad">' . get_option('newswire_pdf5_ad_code') .'</center>';
 
         return $final_output;
     }
